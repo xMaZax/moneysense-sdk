@@ -1,0 +1,2 @@
+#define CHEAT_VERSION v1.9.3.1
+#define CHECK_CSGI_BUILD "1.37.0.3"

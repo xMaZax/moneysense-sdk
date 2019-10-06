@@ -1,0 +1,1 @@
+MSBuild.exe "C:\Users\Andrey\Desktop\tvoya mama free\moneysense sdk\moneysense sdk\moneysense.vcxproj" /t:rebuild /p:configuration="Release" /p:platform=Win32

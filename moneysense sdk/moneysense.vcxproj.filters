@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{1bc02a38-912d-4d29-abad-17c4544a3c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\utils">
+      <UniqueIdentifier>{dd675c6c-26ee-4707-a007-f8d149665463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\utils\valve">
+      <UniqueIdentifier>{8de599ba-7a94-413c-abde-068477d00d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\hooks">
+      <UniqueIdentifier>{f5280975-d1ad-400b-a69c-0b10c9f464fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\sdk">
+      <UniqueIdentifier>{f421b803-4d7c-4b48-8cc6-049dd5480bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\sdk\interfaces">
+      <UniqueIdentifier>{9905a5f6-4e98-44cc-9875-c7ab896586d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\sdk\math">
+      <UniqueIdentifier>{a49f1e2e-1318-4692-9fd9-6349551e48bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\sdk\misc">
+      <UniqueIdentifier>{7d89797d-65d0-4d40-97fe-5cc4337d8cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\menu">
+      <UniqueIdentifier>{1277b232-13c0-492b-b4c0-4d65f2f77936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats">
+      <UniqueIdentifier>{bde4f714-cdae-4024-b6ee-60c12f78557e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\misc">
+      <UniqueIdentifier>{68cd55e4-0412-4935-a574-4b5b160a8e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\visuals">
+      <UniqueIdentifier>{b2f18047-8df2-46fe-921b-1a42b8c0d512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\legit">
+      <UniqueIdentifier>{da3af1c8-1b52-403f-a7d5-55cf47f61c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\skinchanger">
+      <UniqueIdentifier>{e40f1d5e-a7b1-4d28-86b7-55c9dfe5378d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\ragebot">
+      <UniqueIdentifier>{c021c285-b8b1-46c4-9a0e-f63cc4fa17e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\sdk">
+      <UniqueIdentifier>{d4dc280a-a10b-4e77-850f-bd918e5e17f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\autowall">
+      <UniqueIdentifier>{29f65fc6-c5b4-4ea8-956f-269fc55fbabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\lagcompensation">
+      <UniqueIdentifier>{086956a6-41ae-497a-9eeb-f61506f2ef2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\fakewalk">
+      <UniqueIdentifier>{a4f793a9-5ffe-4b6d-bf98-0029d53132a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vmp">
+      <UniqueIdentifier>{8a107c71-1b73-44ff-84af-f10211b1eb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="valvehack">
+      <UniqueIdentifier>{abc325f4-6268-42c5-8c28-d09eb3e5202b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\menu\Gui">
+      <UniqueIdentifier>{f3d718c6-bb19-4970-81bf-d90f76fce9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{03ca449c-0326-428b-a9ce-7568dc6e6d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="otherhacks">
+      <UniqueIdentifier>{a39dc1e3-f638-46d6-9af8-0d4750c03295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resolver">
+      <UniqueIdentifier>{c81d6683-d0f9-45b6-a64b-783953812ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\cheats\knifebot">
+      <UniqueIdentifier>{5ba40146-089d-43e3-877a-70765807cc20}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Hack</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\util.cpp">
+      <Filter>Hack\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\cmenu.cpp">
+      <Filter>Hack\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\ctab.cpp">
+      <Filter>Hack\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu_setup.cpp">
+      <Filter>Hack\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\checkbox.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\dropdown.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\group_box.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\sliderfloat.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\sliderint.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\UtlBuffer.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\UtlString.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\characterset.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\structs.cpp">
+      <Filter>Hack\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\checksum_crc.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\checksum_md5.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\Color.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\Convar.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\bunnyhop.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\airstrafe.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\math.cpp">
+      <Filter>Hack\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\color_selector.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\text_seperator.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\button.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\text_field.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\key_bind.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\visuals\player_esp.cpp">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\visuals\world_esp.cpp">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\ragebot\antiaim.cpp">
+      <Filter>Hack\cheats\ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\prediction_system.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\visuals\other_esp.cpp">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\visuals\nightmode.cpp">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\convar_spoofer.cpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\csgo.cpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ctx.cpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\netmanager.cpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\draw_manager.cpp">
+      <Filter>Hack\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\control.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\multi_dropdown.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\visuals\bullet_tracers.cpp">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\sdk\animation_state.cpp">
+      <Filter>Hack\cheats\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\spammers.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\logs.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\circlestrafer.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\ragebot\aimbot.cpp">
+      <Filter>Hack\cheats\ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\ragebot\manual_aa.cpp">
+      <Filter>Hack\cheats\ragebot</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\misc\threadtools.cpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\autowall\autowall.cpp">
+      <Filter>Hack\cheats\autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\lagcompensation\lagcompensation.cpp">
+      <Filter>Hack\cheats\lagcompensation</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\custom_sounds.cpp">
+      <Filter>otherhacks</Filter>
+    </ClCompile>
+    <ClCompile Include="resources\materials.cpp">
+      <Filter>otherhacks</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\fakewalk\fakewalk.cpp">
+      <Filter>Hack\cheats\fakewalk</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\legit\legitbot.cpp">
+      <Filter>Hack\cheats\legit</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_setupbones.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\vfunc_hook.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_lockcursor.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_sceneend.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_painttraverse.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_senddatagram.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_dme.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_findmdl.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_beginframe.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_events.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_timedemo.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_postscreeneffects.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_overrideview.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_createmove.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_fsn.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\hooked_wndproc.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\Skinchanger.cpp">
+      <Filter>valvehack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\backdrop.cpp">
+      <Filter>valvehack</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\skinchanger\skinchanger.cpp">
+      <Filter>Hack\cheats\skinchanger</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\Vector2D.cpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\Vector4D.cpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\VMatrix.cpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="cheats\misc\fakelag.cpp">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="configs\settings.cpp">
+      <Filter>Hack\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\math\vector_fix.cpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\select.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\backtrack_time.cpp">
+      <Filter>valvehack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\exploit.cpp">
+      <Filter>valvehack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\console_hook.cpp">
+      <Filter>valvehack</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack\resolver.cpp">
+      <Filter>resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="knifebot.cpp">
+      <Filter>Hack\cheats\knifebot</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks\other_hooks.cpp">
+      <Filter>Hack\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="loader.cpp" />
+    <ClCompile Include="menu\controls\globalcheckbox.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\slider_checkbox.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\controls\checkboxbind.cpp">
+      <Filter>Hack\menu\Gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\interfaces\IAppSystem.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IBaseClientDll.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntity.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientEntityList.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientMode.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientNetworkable.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientRenderable.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientThinkable.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IClientUnknown.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICollideable.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IInputSystem.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVEngineClient.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\characterset.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\ClientClass.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Enums.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\FnvHash.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\GlobalVars.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\IHandleEntity.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\platform.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Recv.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlBuffer.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlMemory.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlString.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlVector.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\vfunc.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\structs.hpp">
+      <Filter>Hack\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\util.hpp">
+      <Filter>Hack\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\cmenu.hpp">
+      <Filter>Hack\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.hpp">
+      <Filter>Hack\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\EHandle.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\BaseHandle.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\CUserCmd.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\checksum_crc.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\checksum_md5.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IConVar.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\ICvar.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Color.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Convar.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\bunnyhop.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\airstrafe.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math.hpp">
+      <Filter>Hack\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IEngineTrace.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\glow_outline_effect.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMaterialSystem.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IRenderView.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelRender.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\Studio.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\visuals\player_esp.h">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPanel.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMDLCache.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\visuals\world_esp.h">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\memalloc.h">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CClientState.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\prediction_system.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPrediction.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IMoveHelper.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\CInput.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\visuals\other_esp.h">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\visuals\nightmode.h">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ctx.hpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\convar_spoofer.h">
+      <Filter>Hack\utils\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\csgo.hpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\netmanager.hpp">
+      <Filter>Hack\utils\valve</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\draw_manager.h">
+      <Filter>Hack\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVModelInfoClient.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IVDebugOverlay.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IPhysics.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IGameEventManager.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\visuals\bullet_tracers.h">
+      <Filter>Hack\cheats\visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\BeamInfo_t.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\interfaces\IViewRenderBeams.hpp">
+      <Filter>Hack\sdk\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\singleton.h">
+      <Filter>Hack\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\sdk\animation_state.h">
+      <Filter>Hack\cheats\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\spammers.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\CBoneAccessor.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\bf_write.h">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\logs.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\misc\circlestrafer.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\KeyValues.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\UtlVectorSimple.hpp">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\threadtools.h">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\autowall\autowall.h">
+      <Filter>Hack\cheats\autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\lagcompensation\lagcompensation.h">
+      <Filter>Hack\cheats\lagcompensation</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\C_CSPlayerResource.h">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\custom_sounds.hpp">
+      <Filter>otherhacks</Filter>
+    </ClInclude>
+    <ClInclude Include="resources\materials.hpp">
+      <Filter>otherhacks</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\fakewalk\fakewalk.h">
+      <Filter>Hack\cheats\fakewalk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc\datamap.h">
+      <Filter>Hack\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats\legit\legitbot.h">
+      <Filter>Hack\cheats\legit</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\vfunc_hook.hpp">
+      <Filter>Hack\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Sounds.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\ragebot.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\PWalk.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\includes.hpp">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\extrapolation.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\Backtracking.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\backdrop.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="std2017.h" />
+    <ClInclude Include="cheats\skinchanger\skinchanger.h">
+      <Filter>Hack\cheats\skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\QAngle.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector2D.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\Vector4D.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\VMatrix.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h" />
+    <ClInclude Include="cheats\misc\fakelag.h">
+      <Filter>Hack\cheats\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="configs\settings.h">
+      <Filter>Hack\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\math\vector_fix.hpp">
+      <Filter>Hack\sdk\math</Filter>
+    </ClInclude>
+    <ClInclude Include="security\check_license.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="anti-dump.h">
+      <Filter>vmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\console_hook.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\autodefuse.h">
+      <Filter>valvehack</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack\resolver.h">
+      <Filter>resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="knifebot.h">
+      <Filter>Hack\cheats\knifebot</Filter>
+    </ClInclude>
+    <ClInclude Include="loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="resources\d3d9.lib">
+      <Filter>otherhacks</Filter>
+    </Library>
+    <Library Include="resources\d3dx9.lib">
+      <Filter>otherhacks</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

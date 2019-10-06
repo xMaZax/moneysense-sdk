@@ -1,4 +1,4 @@
-# MoneySense - [aimbot | visuals | chams | misc | skinchanger | settings]
+# MoneySense - [aimbot | visuals | chams | misc | skinchanger]
 my main hack for csgo + (0x10)
 Creator: http://vk.com/skeetidb
 
